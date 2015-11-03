@@ -16,6 +16,7 @@
 		A9C3431F1BE89181000CDF39 /* ASH_TagSelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C3431E1BE89181000CDF39 /* ASH_TagSelectTests.m */; };
 		A9C3432A1BE89181000CDF39 /* ASH_TagSelectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C343291BE89181000CDF39 /* ASH_TagSelectUITests.m */; };
 		A9C343391BE891AA000CDF39 /* HobbyTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C343381BE891AA000CDF39 /* HobbyTagView.m */; settings = {ASSET_TAGS = (); }; };
+		A9C3433B1BE89913000CDF39 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C3433A1BE89913000CDF39 /* 001.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		A9C3432B1BE89181000CDF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9C343371BE891AA000CDF39 /* HobbyTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HobbyTagView.h; sourceTree = "<group>"; };
 		A9C343381BE891AA000CDF39 /* HobbyTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HobbyTagView.m; sourceTree = "<group>"; };
+		A9C3433A1BE89913000CDF39 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		A9C343031BE89181000CDF39 /* ASH_TagSelect */ = {
 			isa = PBXGroup;
 			children = (
+				A9C3433A1BE89913000CDF39 /* 001.png */,
 				A9C343371BE891AA000CDF39 /* HobbyTagView.h */,
 				A9C343381BE891AA000CDF39 /* HobbyTagView.m */,
 				A9C343071BE89181000CDF39 /* AppDelegate.h */,
@@ -251,6 +254,7 @@
 				A9C343141BE89181000CDF39 /* LaunchScreen.storyboard in Resources */,
 				A9C343111BE89181000CDF39 /* Assets.xcassets in Resources */,
 				A9C3430F1BE89181000CDF39 /* Main.storyboard in Resources */,
+				A9C3433B1BE89913000CDF39 /* 001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
