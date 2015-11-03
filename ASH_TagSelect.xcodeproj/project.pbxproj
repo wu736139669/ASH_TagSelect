@@ -15,6 +15,7 @@
 		A9C343141BE89181000CDF39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C343121BE89181000CDF39 /* LaunchScreen.storyboard */; };
 		A9C3431F1BE89181000CDF39 /* ASH_TagSelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C3431E1BE89181000CDF39 /* ASH_TagSelectTests.m */; };
 		A9C3432A1BE89181000CDF39 /* ASH_TagSelectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C343291BE89181000CDF39 /* ASH_TagSelectUITests.m */; };
+		A9C343391BE891AA000CDF39 /* HobbyTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C343381BE891AA000CDF39 /* HobbyTagView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A9C343251BE89181000CDF39 /* ASH_TagSelectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASH_TagSelectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C343291BE89181000CDF39 /* ASH_TagSelectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASH_TagSelectUITests.m; sourceTree = "<group>"; };
 		A9C3432B1BE89181000CDF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C343371BE891AA000CDF39 /* HobbyTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HobbyTagView.h; sourceTree = "<group>"; };
+		A9C343381BE891AA000CDF39 /* HobbyTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HobbyTagView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		A9C343031BE89181000CDF39 /* ASH_TagSelect */ = {
 			isa = PBXGroup;
 			children = (
+				A9C343371BE891AA000CDF39 /* HobbyTagView.h */,
+				A9C343381BE891AA000CDF39 /* HobbyTagView.m */,
 				A9C343071BE89181000CDF39 /* AppDelegate.h */,
 				A9C343081BE89181000CDF39 /* AppDelegate.m */,
 				A9C3430A1BE89181000CDF39 /* ViewController.h */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C343391BE891AA000CDF39 /* HobbyTagView.m in Sources */,
 				A9C3430C1BE89181000CDF39 /* ViewController.m in Sources */,
 				A9C343091BE89181000CDF39 /* AppDelegate.m in Sources */,
 				A9C343061BE89181000CDF39 /* main.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "HobbyTagView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    HobbyTagView* hobbyTagView = [[HobbyTagView alloc] initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height-64) withData:nil];
+    [self.view addSubview:hobbyTagView];
 }
 
 - (void)didReceiveMemoryWarning {
